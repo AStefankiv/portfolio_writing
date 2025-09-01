@@ -107,7 +107,7 @@ const Header = () => {
             Work
           </motion.a>
           <motion.a 
-            href="../../public/Andrii_Stefankiv_Resume_Technical_Writer.pdf"
+            href="/Andrii_Stefankiv_Resume_Technical_Writer.pdf"
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-gray-600 hover:text-purple-gradient transition-all duration-300"
@@ -185,7 +185,7 @@ const Header = () => {
             Work
           </motion.a>
           <motion.a 
-            href="../../public/Andrii_Stefankiv_Resume_Technical_Writer.pdf"
+            href="/Andrii_Stefankiv_Resume_Technical_Writer.pdf"
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-gray-600 text-lg hover:text-purple-gradient transition-all duration-300"
