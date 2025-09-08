@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 import WritingCard from '../components/WritingCard';
 import thumbnail_nasa from '../assets/thumbnails/thumbnail_nasa.png';
 import thumbnail_gitignore from '../assets/thumbnails/thumbnail_gitignore.png';
-import thumbnail_custom_domain from "../assets/thumbnails/thumbnail_custom_domain.png";
 import thumbnail_communicate from "../assets/thumbnails/thumbnail_communicate.png";
 import thumbnail_domain from "../assets/thumbnails/thumbnail_domain.png";
 import thumbnail_espresso from "../assets/thumbnails/thumbnail_espresso.png";
 import thumbnail_node_npm from "../assets/thumbnails/thumbnail_node_npm.png";
+import thumbnail_google from "../assets/thumbnails/thumbnail_google.png";
 import grammarGPT from '../assets/thumbnails/thumbnail_grammar_gpt.gif';
 import medium_clone from '../assets/thumbnails/thumbnail_medium.png';
 import twitter from '../assets/thumbnails/thumbnail_twitter.gif';
@@ -41,6 +41,14 @@ const Work = () => {
     },
     {
       id: 4,
+      title: "Inside a Google Search: How It Works [Infographic]",
+      description: "An infographic explaining the inner workings of Google Search, including crawling, indexing, and ranking.",
+      type: "Technical Writing",
+      image: thumbnail_google,
+      link: "https://github.com/AStefankiv/writing/blob/main/what_happens_when_you_google_something.md"
+    },
+    {
+      id: 5,
       title: "Set Up a GitHub Page with a Custom Domain",
       description: "A step-by-step guide to deploying a personal website using GitHub Pages and a custom domain.",
       type: "Technical Writing",
@@ -48,7 +56,7 @@ const Work = () => {
       link: "https://github.com/AStefankiv/writing/blob/main/set_up_a_github_page_with_a_custom_domain.md"
     },
     {
-      id: 5,
+      id: 6,
       title: "Install and Configure Node.js + npm on Ubuntu 20.04",
       description: "A comprehensive guide to setting up Node.js and npm on Ubuntu 20.04 for web development.",
       type: "Technical Writing",
@@ -56,7 +64,7 @@ const Work = () => {
       link: "https://github.com/AStefankiv/writing/blob/main/install_and_configure_node_%26_npm_on_ubuntu.md"
     },
     {
-      id: 6,
+      id: 7,
       title: "How to Start Brewing Bulletproof Espresso at Home",
       description: "A comprehensive guide to brewing the perfect cup of Bulletproof Espresso at home.",
       type: "Content Writing",
