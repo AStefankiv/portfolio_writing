@@ -175,6 +175,28 @@ const WorkSection = () => {
                 variants={cardVariants}
                 whileHover="hover"
               >
+                <h4 className="text-xl font-semibold text-gray-900 mb-2">The Smart Way to Use AI for Writing</h4>
+                <p className="text-gray-600 mb-4">Practical tips for using Grammarly Go, ChatGPT, and other AI assistants to enhance, but not replace your writing process.</p>
+                <motion.a 
+                  href="https://github.com/AStefankiv/writing/blob/main/ai_for_writing.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-gradient font-medium inline-flex items-center group"
+                  whileHover={{ x: 5 }}
+                >
+                  Read Article
+                  <svg className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                  </svg>
+                </motion.a>
+              </motion.div>
+
+            {/* Article 2 */}
+              <motion.div 
+                className="p-6 bg-blue-50 rounded-lg border border-blue-100 hover:shadow-lg hover:shadow-blue-100 transition-all duration-300"
+                variants={cardVariants}
+                whileHover="hover"
+              >
                 <h4 className="text-xl font-semibold text-gray-900 mb-2">Inside a Google Search: How It Works [Infographic]</h4>
                 <p className="text-gray-600 mb-4">An infographic explaining the inner workings of Google Search, including crawling, indexing, and ranking.</p>
                 <motion.a
@@ -191,7 +213,7 @@ const WorkSection = () => {
                 </motion.a>
               </motion.div>
 
-              {/* Article 2 */}
+              {/* Article 3 */}
               <motion.div 
                 className="p-6 bg-blue-50 rounded-lg border border-blue-100 hover:shadow-lg hover:shadow-blue-100 transition-all duration-300"
                 variants={cardVariants}
@@ -213,7 +235,7 @@ const WorkSection = () => {
                 </motion.a>
               </motion.div>
 
-              {/* Article 3 */}
+              {/* Article 4 */}
               <motion.div
                 className="p-6 bg-blue-50 rounded-lg border border-blue-100 hover:shadow-lg hover:shadow-blue-100 transition-all duration-300"
                 variants={cardVariants}
@@ -223,28 +245,6 @@ const WorkSection = () => {
                 <p className="text-gray-600 mb-4">A practical guide to clear, respectful communication with non-fluent English speakers.</p>
                 <motion.a 
                   href="https://github.com/AStefankiv/writing/blob/main/how_to_communicate_with_non-fluent_english_speakers.md"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-gradient font-medium inline-flex items-center group"
-                  whileHover={{ x: 5 }}
-                >
-                  Read Article
-                  <svg className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                  </svg>
-                </motion.a>
-              </motion.div>
-              
-              {/* Article 4 */}
-              <motion.div 
-                className="p-6 bg-blue-50 rounded-lg border border-blue-100 hover:shadow-lg hover:shadow-blue-100 transition-all duration-300"
-                variants={cardVariants}
-                whileHover="hover"
-              >
-                <h4 className="text-xl font-semibold text-gray-900 mb-2">Start Brewing Bulletproof Espresso at Home</h4>
-                <p className="text-gray-600 mb-4">A comprehensive guide to brewing the perfect cup of Bulletproof Espresso at home.</p>
-                <motion.a 
-                  href="https://github.com/AStefankiv/writing/blob/main/start_brewing_bulletproof_espresso.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-gradient font-medium inline-flex items-center group"

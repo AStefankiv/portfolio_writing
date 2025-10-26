@@ -12,6 +12,7 @@ import thumbnail_google from "../assets/thumbnails/thumbnail_google.png";
 import grammarGPT from '../assets/thumbnails/thumbnail_grammar_gpt.gif';
 import medium_clone from '../assets/thumbnails/thumbnail_medium.png';
 import twitter from '../assets/thumbnails/thumbnail_twitter.gif';
+import thumbnail_ai_writing from '../assets/thumbnails/thumbnail_ai_writing.jpg'
 
 const Work = () => {
   const writings = [
@@ -25,11 +26,11 @@ const Work = () => {
     },
     {
       id: 2,
-      title: "How to Communicate With Non-Fluent English Speakers",
-      description: "A practical guide to clear, respectful communication with non-fluent English speakers.",
+      title: "The Smart Way to Use AI for Writing",
+      description: "Practical tips for using Grammarly Go, ChatGPT, and other AI assistants to enhance, but not replace your writing process.",
       type: "Content Writing",
-      image: thumbnail_communicate,
-      link: "https://github.com/AStefankiv/writing/blob/main/how_to_communicate_with_non-fluent_english_speakers.md"
+      image: thumbnail_ai_writing,
+      link: "https://github.com/AStefankiv/writing/blob/main/ai_for_writing.md"
     },
     {
       id: 3,
@@ -43,7 +44,7 @@ const Work = () => {
       id: 4,
       title: "Inside a Google Search: How It Works [Infographic]",
       description: "An infographic explaining the inner workings of Google Search, including crawling, indexing, and ranking.",
-      type: "Technical Writing",
+      type: "Content Writing",
       image: thumbnail_google,
       link: "https://github.com/AStefankiv/writing/blob/main/what_happens_when_you_google_something.md"
     },
@@ -70,7 +71,15 @@ const Work = () => {
       type: "Content Writing",
       image: thumbnail_espresso,
       link: "https://github.com/AStefankiv/writing/blob/main/start_brewing_bulletproof_espresso.md"
-    }
+    },
+    {
+      id: 8,
+      title: "How to Communicate With Non-Fluent English Speakers",
+      description: "A practical guide to clear, respectful communication with non-fluent English speakers.",
+      type: "Content Writing",
+      image: thumbnail_communicate,
+      link: "https://github.com/AStefankiv/writing/blob/main/how_to_communicate_with_non-fluent_english_speakers.md"
+    },
   ];
 
   const webProjects = [
