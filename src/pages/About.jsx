@@ -84,9 +84,9 @@ const About = () => {
           <motion.div variants={itemVariants}>
             <h2 className="text-2xl font-semibold text-gray-900 mb-6">My Story</h2>
             <div className="space-y-4 text-gray-700">
-              <p>My career path has always felt like it was nudged in this direction—my mom is an English teacher, after all. At school, I admired the teachers who could explain things simply, the ones who made even complex ideas feel approachable. I’ve carried that same love for clarity with me ever since.</p>
-              <p>For more than a decade, I’ve worked in education. As a teacher, my favorite moments were always when confusion gave way to understanding—the spark in a student’s eyes when they finally said, “Ohhh, I get it now!” That moment never got old.</p>
-              <p>Writing gives me that same satisfaction. I get to break down tricky concepts, build step-by-step guides, and turn the complicated into something clear and usable. What excites me most is adapting information so it truly lands—whether the reader is a beginner, an expert, or somewhere in between.</p>
+              <p>My career path has always led me here. Maybe because my mom is an English teacher. In school, I looked up to teachers who explained things simply and made even tough ideas easy to understand. That love for clarity has stayed with me.</p>
+              <p>I have worked in education for over ten years. As a teacher, my favorite moments were when confusion turned into understanding, and I saw the spark in a student’s eyes as they said, “Ohhh, I get it now!” That moment was always special.</p>
+              <p>Writing gives me that same satisfaction. I enjoy breaking down tricky concepts, building step-by-step guides, and making complicated ideas clear and valuable. What excites me most is adapting information so it truly connects, whether the reader is a beginner, an expert, or somewhere in between.</p>
             </div>
           </motion.div>
           
